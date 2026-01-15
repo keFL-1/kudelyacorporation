@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecureCheck — умный контроль безопасности Windows</title>
+    <meta
+      name="description"
+      content="SecureCheck — интеллектуальный помощник по безопасности системы. Показывает уровень защиты Windows и помогает понять, где есть риски."
+    />
+    <!-- Иконка (аватарка) сайта -->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Фоновая подсветка -->
+    <div class="background-glow"></div>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="container header__inner">
+        <div class="logo">
+          <span class="logo__mark"></span>
+          <span class="logo__text">SecureCheck</span>
+        </div>
+        <nav class="nav">
+          <a href="#value" class="nav__link">Возможности</a>
+          <a href="#for-whom" class="nav__link">Для кого</a>
+          <a href="#how-it-works" class="nav__link">Как работает</a>
+        </nav>
+        <a
+          href="https://drive.google.com/file/d/1hl1Ia_hElYDo54nXSYmnPkeA9pfmwZIg/view?usp=drive_link"
+          download
+          class="btn btn--outline header__download"
+        >
+          Скачать приложение
+        </a>
+        <button class="burger" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+      <!-- Hero-блок -->
+      <section class="hero" id="top">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Не антивирус. Умный контроль безопасности.</p>
+            <h1 class="hero__title">
+              SecureCheck — умный контроль безопасности Windows
+            </h1>
+            <p class="hero__subtitle">
+              Показывает, насколько защищена ваша система, и где есть риски —
+              простым и понятным языком.
+            </p>
+            <div class="hero__actions">
+              <a
+                href="https://drive.google.com/file/d/1hl1Ia_hElYDo54nXSYmnPkeA9pfmwZIg/view?usp=drive_link"
+                download
+                class="btn btn--primary"
+              >
+                Скачать SecureCheck
+              </a>
+              <button class="btn btn--ghost hero__scroll-btn" data-scroll="#value">
+                Узнать больше
+              </button>
+            </div>
+            <p class="hero__note">
+              Работает с Windows 10 и Windows 11. Без рекламы и лишних процессов.
+            </p>
+          </div>
+          <div class="hero__visual">
+            <!-- Карточка "скриншота" приложения -->
+            <div class="app-card fade-in-up">
+              <div class="app-card__header">
+                <span class="status-dot status-dot--safe"></span>
+                <span class="app-card__title">Общий уровень защиты</span>
+                <span class="app-card__badge">81%</span>
+              </div>
+              <div class="app-card__body">
+                <div class="meter">
+                  <div class="meter__label">Конфигурация системы</div>
+                  <div class="meter__bar">
+                    <span class="meter__fill meter__fill--good"></span>
+                  </div>
+                  <span class="meter__value">Высокий</span>
+                </div>
+                <div class="meter">
+                  <div class="meter__label">Обновления безопасности</div>
+                  <div class="meter__bar">
+                    <span class="meter__fill meter__fill--medium"></span>
+                  </div>
+                  <span class="meter__value">Средний</span>
+                </div>
+                <div class="meter">
+                  <div class="meter__label">Параметры конфиденциальности</div>
+                  <div class="meter__bar">
+                    <span class="meter__fill meter__fill--low"></span>
+                  </div>
+                  <span class="meter__value meter__value--risk">Есть риски</span>
+                </div>
+              </div>
+              <div class="app-card__footer">
+                <span class="app-card__hint">
+                  SecureCheck подскажет, какие настройки изменить.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок ценности -->
+      <section class="section section--light" id="value">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Почему SecureCheck?</h2>
+            <p class="section__subtitle">
+              Простой, честный и прозрачный помощник по безопасности, который
+              не пугает сложными терминами.
+            </p>
+          </div>
+          <div class="grid grid--4">
+            <article class="card fade-in">
+              <h3 class="card__title">Контроль системных настроек</h3>
+              <p class="card__text">
+                Проверяет ключевые параметры безопасности Windows и показывает,
+                что именно влияет на защиту вашей системы.
+              </p>
+            </article>
+            <article class="card fade-in" data-delay="100">
+              <h3 class="card__title">Прозрачные отчёты</h3>
+              <p class="card__text">
+                Понятные отчёты без жаргона и аббревиатур. Каждый пункт
+                сопровождается коротким объяснением.
+              </p>
+            </article>
+            <article class="card fade-in" data-delay="200">
+              <h3 class="card__title">Без рекламы и лишнего</h3>
+              <p class="card__text">
+                Никаких всплывающих баннеров, скрытых задач в фоне или
+                навязанных сервисов. Только анализ и рекомендации.
+              </p>
+            </article>
+            <article class="card fade-in" data-delay="300">
+              <h3 class="card__title">Для Windows 10 / 11</h3>
+              <p class="card__text">
+                Разработан специально для современных версий Windows и их
+                механизмов безопасности.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок "Для кого этот продукт" -->
+      <section class="section" id="for-whom">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Для кого SecureCheck?</h2>
+            <p class="section__subtitle">
+              Для тех, кто хочет понимать уровень защиты своего компьютера,
+              а не просто «надеяться на антивирус».
+            </p>
+          </div>
+          <div class="grid grid--3">
+            <article class="persona fade-in">
+              <h3 class="persona__title">Студенты</h3>
+              <p class="persona__text">
+                Лёгкий способ разобраться с безопасностью своей системы,
+                не тратя время на сложные инструкции и форумы.
+              </p>
+            </article>
+            <article class="persona fade-in" data-delay="120">
+              <h3 class="persona__title">Обычные пользователи</h3>
+              <p class="persona__text">
+                Если вы просто хотите, чтобы компьютер был защищён — SecureCheck
+                покажет текущее состояние и подскажет, что улучшить.
+              </p>
+            </article>
+            <article class="persona fade-in" data-delay="240">
+              <h3 class="persona__title">Начинающие администраторы</h3>
+              <p class="persona__text">
+                Быстрый обзор состояния безопасности рабочих станций и список
+                приоритетных настроек для изменений.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок "Как это работает" -->
+      <section class="section section--light" id="how-it-works">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Как работает SecureCheck</h2>
+            <p class="section__subtitle">
+              Всего несколько шагов — и вы понимаете, насколько защищена ваша
+              система.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step fade-in-up">
+              <div class="step__badge">1</div>
+              <h3 class="step__title">Запуск приложения</h3>
+              <p class="step__text">
+                Установите и запустите SecureCheck. Приложение не требует
+                сложной настройки и готово к работе сразу.
+              </p>
+            </div>
+            <div class="step fade-in-up" data-delay="140">
+              <div class="step__badge">2</div>
+              <h3 class="step__title">Анализ конфигураций безопасности</h3>
+              <p class="step__text">
+                SecureCheck проверяет системные параметры, связанные с
+                безопасностью и конфиденциальностью, без сканирования файлов.
+              </p>
+            </div>
+            <div class="step fade-in-up" data-delay="280">
+              <div class="step__badge">3</div>
+              <h3 class="step__title">Понятный отчёт и рекомендации</h3>
+              <p class="step__text">
+                Вы получаете краткий отчёт с оценкой уровня защиты и
+                приоритезированными рекомендациями, что включить или изменить.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="section cta" id="download">
+        <div class="container cta__inner">
+          <div class="cta__content">
+            <h2 class="cta__title">Готовы проверить свою систему?</h2>
+            <p class="cta__subtitle">
+              SecureCheck даст честную картину текущего уровня защиты и подскажет,
+              с чего начать улучшения.
+            </p>
+          </div>
+          <div class="cta__actions">
+            <a
+              href="https://drive.google.com/file/d/1hl1Ia_hElYDo54nXSYmnPkeA9pfmwZIg/view?usp=drive_link"
+              download
+              class="btn btn--primary btn--large"
+            >
+              Скачать приложение
+            </a>
+            <p class="cta__note">Быстрая установка. Бесплатно.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="footer__name">SecureCheck</span>
+          <span class="footer__tagline">
+            Учебный проект по информационной безопасности
+          </span>
+        </div>
+        <span class="footer__meta">© <span id="year"></span></span>
+      </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+
